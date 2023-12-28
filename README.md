@@ -26,19 +26,19 @@ For additional information, you can visit the BipBip website:
 
 ### Installation
 1. Clone this repository:
-   \```
+   ```bash
    git clone https://github.com/userVincent/BipBip.git
-   \```
+   ```
 2. Navigate to the cloned directory:
-   \```
+   ```bash
    cd BipBip
-   \```
+   ```
 
 ### Running Tests
 To run the tests and ensure the functionality matches that of the original C++ implementation:
-\```
+```bash
 sbt test
-\```
+```
 
 ## Contact
 For any queries or further discussion, please contact me at vincent@vansant.mozmail.com.
