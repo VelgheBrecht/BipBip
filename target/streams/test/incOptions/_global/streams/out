@@ -1,2 +1,35 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vince\Documents\School\Master\master_thesis\BipBip\target\scala-2.12\test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vince\Documents\School\Master\master_thesis\BipBip\target\scala-2.12\test-classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipInterop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathLibrary.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeyScheduleInterop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipLibrary.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleInterop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AbstractModulesTester$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathInterop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeyScheduleTester.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ArrayHelper$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathTester$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipTester.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathInterop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipInterop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathTester.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleInterop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AbstractModulesTester.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleTester$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AbstractModuleInterop$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ArrayHelper.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeyScheduleInterop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AbstractModulesTester$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AbstractModuleInterop.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleLibrary.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AbstractModuleLibrary.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleTester.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleTester$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeyScheduleLibrary.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\vince\Documents\School\Master\master_thesis\BipBip\target\scala-2.12\test-classes.bak[0m

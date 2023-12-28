@@ -1,2 +1,41 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vince\Documents\School\Master\master_thesis\BipBip\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\vince\Documents\School\Master\master_thesis\BipBip\target\scala-2.12\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeySc$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundModule.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathRoundModule$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CHI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RGC.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RFS$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TableLoader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RGC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleRoundModule.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwkSc$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwkIn$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RGP$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwkIn$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeySc.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KeySc$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TableLoader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RGP.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RoundModule$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwkSc$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RFC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipDec.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipDec$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TweakScheduleRoundModule$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPathRoundModule.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwkIn.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CHI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	TwkSc.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBipDec$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RFS.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RFC.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\vince\Documents\School\Master\master_thesis\BipBip\target\scala-2.12\classes.bak[0m
