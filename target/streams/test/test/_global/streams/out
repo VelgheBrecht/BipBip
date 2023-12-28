@@ -1,0 +1,59 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BipBip.KeyScheduleTester, org.scalatest.tools.Framework$$anon$1@2466f5b1, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BipBip.AbstractModulesTester, org.scalatest.tools.Framework$$anon$1@2466f5b1, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BipBip.BipBipTester, org.scalatest.tools.Framework$$anon$1@2466f5b1, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BipBip.TweakScheduleTester, org.scalatest.tools.Framework$$anon$1@2466f5b1, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BipBip.DataPathTester, org.scalatest.tools.Framework$$anon$1@2466f5b1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAbstractModulesTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBPL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BPL1 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBPL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BPL2 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBPL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BPL3 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBPL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BPL4 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBPL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BPL5 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mSBL[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ SBL model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mDataPathTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLML1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ LML1 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRFC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ RFC model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRFS[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ RFS model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBipBipDec[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BipBipDec model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKeyScheduleTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mKeySc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ KeySc model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBipBipTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBipBip[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ BipBip model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTweakScheduleTester:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTwkIn[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ TwkIn model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCHI[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ CHI model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLML2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ LML2 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mLML3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ LML3 model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRGC[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ RGC model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRGP[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ RGP model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTwkSc[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should match the C++ TwkSc model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 minute, 3 seconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 19[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 19, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip.TweakScheduleTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip.BipBipTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip.KeyScheduleTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip.AbstractModulesTester[0m
+[0m[[0m[0mdebug[0m] [0m[0m	BipBip.DataPathTester[0m
