@@ -389,3 +389,55 @@ WARNING: Unmatched cancel notification for request id 5
 2023.12.28 01:43:43 INFO  time: compiled bipbip in 7.77s
 2023.12.28 01:43:47 WARN  43 feature warnings; re-run with -feature for details
 2023.12.28 01:43:47 INFO  time: compiled bipbip-test in 3.21s
+Dec 28, 2023 2:03:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.12.28 03:33:49 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\vince\Documents\School\Master\master_thesis\BipBip' for client Visual Studio Code 1.85.1.
+2023.12.28 03:33:54 INFO  Attempting to connect to the build server...
+Dec 28, 2023 3:33:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.12.28 03:33:54 INFO  skipping build import with status 'Installed'
+2023.12.28 03:33:54 INFO  Bloop uses C:\Users\vince\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\vince\.bloop\bloop.json
+2023.12.28 03:34:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vince\Documents\School\Master\master_thesis\BipBip\.metals\bsp.trace.json or C:\Users\vince\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.28 03:34:00 INFO  Attempting to connect to the build server...
+2023.12.28 03:34:00 INFO  Bloop uses C:\Users\vince\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\vince\.bloop\bloop.json
+2023.12.28 03:34:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vince\Documents\School\Master\master_thesis\BipBip\project\.metals\bsp.trace.json or C:\Users\vince\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.12.28 03:34:00 INFO  time: Connected to build server in 6.54s
+2023.12.28 03:34:00 INFO  Connected to Build server: Bloop v1.5.13
+2023.12.28 03:34:00 INFO  time: Imported build in 0.13s
+2023.12.28 03:34:04 INFO  time: indexed workspace in 3.55s
+Dec 28, 2023 5:44:56 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.02 12:02:00 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\vince\Documents\School\Master\master_thesis\BipBip' for client Visual Studio Code 1.85.1.
+2024.01.02 12:02:05 INFO  Attempting to connect to the build server...
+2024.01.02 12:02:05 INFO  Bloop uses C:\Users\vince\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\vince\.bloop\bloop.json
+2024.01.02 12:02:05 INFO  skipping build import with status 'Installed'
+2024.01.02 12:02:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vince\Documents\School\Master\master_thesis\BipBip\.metals\bsp.trace.json or C:\Users\vince\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.02 12:02:11 INFO  Attempting to connect to the build server...
+2024.01.02 12:02:11 INFO  Bloop uses C:\Users\vince\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\vince\.bloop\bloop.json
+2024.01.02 12:02:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vince\Documents\School\Master\master_thesis\BipBip\project\.metals\bsp.trace.json or C:\Users\vince\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.02 12:02:11 INFO  time: Connected to build server in 6.17s
+2024.01.02 12:02:11 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.02 12:02:11 INFO  time: Imported build in 0.12s
+2024.01.02 12:02:15 INFO  time: indexed workspace in 3.76s
+Jan 02, 2024 1:27:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.02 14:00:21 INFO  Shutting down server
+2024.01.02 14:00:21 INFO  shutting down Metals
+2024.01.02 14:00:21 INFO  Shut down connection with build server.
+2024.01.02 14:00:21 INFO  Shut down connection with build server.
+2024.01.02 14:00:21 INFO  Exiting server
+2024.01.29 00:52:55 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\vince\Documents\School\Master\master_thesis\BipBip' for client Visual Studio Code 1.85.2.
+2024.01.29 00:52:56 INFO  Attempting to connect to the build server...
+2024.01.29 00:52:56 INFO  skipping build import with status 'Installed'
+2024.01.29 00:52:56 INFO  Bloop uses C:\Users\vince\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\vince\.bloop\bloop.json
+2024.01.29 00:53:02 INFO  no build target found for C:\Users\vince\Documents\School\Master\master_thesis\BipBip\src\test\scala\TweakScheduleTester.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Jan 29, 2024 12:53:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.01.29 00:53:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vince\Documents\School\Master\master_thesis\BipBip\.metals\bsp.trace.json or C:\Users\vince\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.29 00:53:05 INFO  Attempting to connect to the build server...
+2024.01.29 00:53:05 INFO  Bloop uses C:\Users\vince\.jabba\jdk\adopt@1.11.0-11 defined at C:\Users\vince\.bloop\bloop.json
+2024.01.29 00:53:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\vince\Documents\School\Master\master_thesis\BipBip\project\.metals\bsp.trace.json or C:\Users\vince\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.29 00:53:05 INFO  time: Connected to build server in 9.93s
+2024.01.29 00:53:05 INFO  Connected to Build server: Bloop v1.5.13
+2024.01.29 00:53:06 INFO  time: Imported build in 0.22s
+2024.01.29 00:53:10 INFO  time: indexed workspace in 3.77s
