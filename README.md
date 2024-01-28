@@ -5,7 +5,7 @@
 This repository contains an implementation of the BipBip low latency block cipher in Chisel. The implementation aims to provide a hardware-efficient encryption solution, with thorough testing against the reference C++ code provided by the original developers of BipBip.
 
 ![BipBip Structure](images/BipBipStructure.png)
-*BStructure of BipBip*
+*Structure of BipBip*
 
 
 ## Reference
