@@ -8,6 +8,8 @@ class RFC(blockSize: Int = 24, sboxWidth: Int = 6) extends DataPathRoundModule(b
     // permutation tables for pi1 and pi2
     val P1 = VecInit(TableLoader.P1)
     val P2 = VecInit(TableLoader.P2)
+
+    // LML1
     // Linear Mixing Layer in Data Path: theta_d
     def LML(input: UInt): UInt = {
         val output = Wire(Vec(blockSize, Bool()))

@@ -25,6 +25,7 @@ class CHI(blockSize: Int = 53) extends RoundModule(blockSize) {
 
 // Round Function: G Round
 class RGC(blockSize: Int = 53) extends TweakScheduleRoundModule(blockSize) {
+    // LML2
     // Linear Mixing Layer in Tweak Path: theta_t
     def LML(input: UInt): UInt = {
         val output = Wire(Vec(blockSize, Bool()))
@@ -50,6 +51,7 @@ class RGC(blockSize: Int = 53) extends TweakScheduleRoundModule(blockSize) {
 
 // Round Function: G' Round
 class RGP(blockSize: Int = 53) extends TweakScheduleRoundModule(blockSize) {
+    // LML3
     // Linear Mixing Layer in Tweak Path: theta_p
     def LML(input: UInt): UInt = {
         val output = Wire(Vec(blockSize, Bool()))
@@ -83,6 +85,7 @@ class TwkSc(extendedTweakSize: Int = 53, amountTweakRoundKeys: Int = 7,
         val dataRoundKeys = Output(Vec(amountDataRoundKeys, UInt(blockSize.W)))
     })
 
+    // RKE0 and RKE1, offset is used to differentiate
     // round key extraction, if offset is true extraction is E1 if false extraction is E0
     def RKE(intermediate: UInt, offset: Boolean = false): UInt = {
         val drk = Wire(Vec(blockSize, Bool()))

@@ -20,6 +20,7 @@ abstract class RoundModule(val blockSize: Int) extends Module {
         val output = Output(UInt(blockSize.W))
     })
     
+    // BPL1, BPL2, BPL3, BPL4, BPL5, IBPL1, IBPL2 and IBPL3 as it takes an extra argument to differentiate
     // Bit-Permutation with perm
     def BPL(input: UInt, perm: Vec[UInt]): UInt = {
         val output = Wire(Vec(blockSize, Bool()))
