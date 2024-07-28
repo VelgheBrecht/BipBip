@@ -2,39 +2,17 @@ package BipBip
 
 import chisel3._
 import chisel3.util._
-import play.api.libs.json._
-import java.io._
 
 object TableLoader {
-    var BBB: Seq[UInt] = Seq()
-    var P1: Seq[UInt] = Seq()
-    var P2: Seq[UInt] = Seq()
-    var P3: Seq[UInt] = Seq()
-    var P4: Seq[UInt] = Seq()
-    var P5: Seq[UInt] = Seq()
-    
-    try{
-        // Load JSON file
-        val fileInputStream = new FileInputStream(new File("resources/tables.json"))
-        val jsonString = scala.io.Source.fromInputStream(fileInputStream).mkString
-        fileInputStream.close()
-
-        // Parse JSON
-        val json = Json.parse(jsonString)
-
-        // Extract tables
-        BBB = (json \ "BBB").as[Seq[String]].map(value => Integer.parseInt(value.substring(2), 16).asUInt(6.W))
-        P1 = (json \ "P1").as[Seq[Int]].map(_.U)
-        P2 = (json \ "P2").as[Seq[Int]].map(_.U)
-        P3 = (json \ "P3").as[Seq[Int]].map(_.U)
-        P4 = (json \ "P4").as[Seq[Int]].map(_.U)
-        P5 = (json \ "P5").as[Seq[Int]].map(_.U)
-    } catch {
-        case e: Exception => 
-        println(s"Error while reading the file: ${e.getMessage}")
-        e.printStackTrace()
-    }
+    // Define the arrays with the actual values from the JSON file
+    val BBB: Seq[UInt] = Seq("0x00","0x01","0x02","0x03","0x04","0x06","0x3e","0x3c","0x08","0x11","0x0e","0x17","0x2b","0x33","0x35","0x2d","0x19","0x1c","0x09","0x0c","0x15","0x13","0x3d","0x3b","0x31","0x2c","0x25","0x38","0x3a","0x26","0x36","0x2a","0x34","0x1d","0x37","0x1e","0x30","0x1a","0x0b","0x21","0x2e","0x1f","0x29","0x18","0x0f","0x3f","0x10","0x20","0x28","0x05","0x39","0x14","0x24","0x0a","0x0d","0x23","0x12","0x27","0x07","0x32","0x1b","0x2f","0x16","0x22").map(value => Integer.parseInt(value.substring(2), 16).asUInt(6.W))
+    val P1: Seq[UInt] = Seq(1, 7, 6, 0, 2, 8, 12, 18, 19, 13, 14, 20, 21, 15, 16, 22, 23, 17, 9, 3, 4, 10, 11, 5).map(_.U)
+    val P2: Seq[UInt] = Seq(0, 1, 4, 5, 8, 9, 2, 3, 6, 7, 10, 11, 16, 12, 13, 17, 20, 21, 15, 14, 18, 19, 22, 23).map(_.U)
+    val P3: Seq[UInt] = Seq(16, 22, 11, 5, 2, 8, 0, 6, 19, 13, 12, 18, 14, 15, 1, 7, 21, 20, 4, 3, 17, 23, 10, 9).map(_.U)
+    val P4: Seq[UInt] = Seq(0, 13, 26, 39, 52, 12, 25, 38, 51, 11, 24, 37, 50, 10, 23, 36, 49, 9, 22, 35, 48, 8, 21, 34, 47, 7, 20, 33, 46, 6, 19, 32, 45, 5, 18, 31, 44, 4, 17, 30, 43, 3, 16, 29, 42, 2, 15, 28, 41, 1, 14, 27, 40).map(_.U)
+    val P5: Seq[UInt] = Seq(0, 11, 22, 33, 44, 2, 13, 24, 35, 46, 4, 15, 26, 37, 48, 6, 17, 28, 39, 50, 8, 19, 30, 41, 52, 10, 21, 32, 43, 1, 12, 23, 34, 45, 3, 14, 25, 36, 47, 5, 16, 27, 38, 49, 7, 18, 29, 40, 51, 9, 20, 31, 42).map(_.U)
 }
+
 
 abstract class RoundModule(val blockSize: Int) extends Module {
     val io = IO(new Bundle {
